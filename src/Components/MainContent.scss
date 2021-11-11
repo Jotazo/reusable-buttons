@@ -1,0 +1,17 @@
+.main-content {
+  width: 100%;
+  padding: 3rem 6rem;
+}
+
+.main-content-title {
+  color: #4f4f4f;
+  font-family: var(--poppins);
+  font-weight: 500;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}

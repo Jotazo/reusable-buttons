@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* FONTS */
+
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/fonts/Poppins-Medium.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Noto-Sans-JP;
+  src: url(./assets/fonts/NotoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Mono;
+  src: url(./assets/fonts/UbuntuMono-Regular.ttf);
+}
+
+/* GENERAL */
+
+:root {
+  /* Font Vars */
+  --font-list: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  --poppins: Poppins, var(--font-list);
+  --noto-sans: Noto-Sans-JP, var(--font-list);
+  --ubuntu-mono: Ubuntu-Mono, var(--font-list);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

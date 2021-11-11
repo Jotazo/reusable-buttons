@@ -1,0 +1,41 @@
+.aside {
+  background-color: #fafbfd;
+  display: flex;
+  flex-direction: column;
+  gap: 8.5rem;
+  width: 300px;
+  height: 100vh;
+}
+
+.aside-title {
+  font-weight: 600;
+  font-family: var(--poppins);
+  margin-top: 2rem;
+}
+
+.orange {
+  color: #f7542e;
+}
+
+.aside-list {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--noto-sans);
+  gap: 2.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.aside-title,
+.aside-list-item {
+  margin-left: 3.5rem;
+}
+
+.aside-list-item {
+  font-weight: 600;
+  color: #9e9e9e;
+}
+
+.selected {
+  color: #090f31;
+}
